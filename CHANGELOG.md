@@ -1,3 +1,5 @@
+Must provide GITHUB_AUTH
+
 ## v1.0.1 (2021-06-07)
 
 #### :bug: Bug Fix
