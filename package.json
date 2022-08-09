@@ -2,13 +2,13 @@
   "name": "watch-detector",
   "version": "1.0.2",
   "description": "",
-  "homepage": "https://github.com/chrmod/watch-detector#readme",
+  "homepage": "https://github.com/ember-cli/watch-detector#readme",
   "bugs": {
-    "url": "https://github.com/chrmod/watch-detector/issues"
+    "url": "https://github.com/ember-cli/watch-detector/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrmod/watch-detector.git"
+    "url": "git+https://github.com/ember-cli/watch-detector.git"
   },
   "license": "MIT",
   "files": [
