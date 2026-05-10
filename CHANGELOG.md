@@ -1,3 +1,5 @@
+# Changelog
+
 ## v1.0.2 (2022-07-28)
 
 * Merge pull request #26 from ginomiglio/can-nest-roots-version-check (ec2ab11)
