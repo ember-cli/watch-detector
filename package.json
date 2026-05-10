@@ -23,7 +23,7 @@
   "dependencies": {
     "heimdalljs-logger": "^0.1.10",
     "silent-error": "^1.1.1",
-    "tmp": "^0.1.0"
+    "tmp": "^0.2.5"
   },
   "devDependencies": {
     "chai": "^4.2.0",
