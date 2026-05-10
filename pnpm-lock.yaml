@@ -27,6 +27,9 @@ importers:
       console-ui:
         specifier: ^3.1.1
         version: 3.1.2
+      eslint:
+        specifier: ^5.16.0
+        version: 5.16.0
       eslint-config-prettier:
         specifier: ^6.2.0
         version: 6.15.0(eslint@5.16.0)
@@ -42,9 +45,6 @@ importers:
       mocha:
         specifier: ^6.2.0
         version: 6.2.3
-      mocha-eslint:
-        specifier: ^5.0.0
-        version: 5.0.0
       prettier:
         specifier: ^1.18.2
         version: 1.19.1
@@ -456,9 +456,6 @@ packages:
 
   cliui@5.0.0:
     resolution: {integrity: sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA==}
-
-  cliui@6.0.0:
-    resolution: {integrity: sha512-t6wbgtoCXvAzst7QgXxJYqPt0usEfbgQdftEPbLL/cvv6HPE5VgvqCuAIDR0NgU52ds6rFwqrgakNLrHEjCbrQ==}
 
   clone-response@1.0.3:
     resolution: {integrity: sha512-ROoL94jJH2dUVML2Y/5PEDNaSHgeOdSDicUyS7izcF63G6sTc/FTjLub4b8Il9S8S0beOfYt0TaA5qvFK+w0wA==}
@@ -983,10 +980,6 @@ packages:
 
   git-url-parse@11.1.2:
     resolution: {integrity: sha512-gZeLVGY8QVKMIkckncX+iCq2/L8PlwncvDFKiWkBn9EtCfYDbliRTTp6qzyQ1VMdITUfq7293zDzfpjdiGASSQ==}
-
-  glob-all@3.3.1:
-    resolution: {integrity: sha512-Y+ESjdI7ZgMwfzanHZYQ87C59jOO0i+Hd+QYtVt9PhLi6d8wlOpzQnfBxWUlaTuAoR3TkybLqqbIoWveU4Ji7Q==}
-    hasBin: true
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -1588,9 +1581,6 @@ packages:
     resolution: {integrity: sha512-FP+p8RB8OWpF3YZBCrP5gtADmtXApB5AMLn+vdyA+PyxCjrCs00mjyUozssO33cwDeT3wNGdLxJ5M//YqtHAJw==}
     hasBin: true
 
-  mocha-eslint@5.0.0:
-    resolution: {integrity: sha512-K6ewxXXVtVQA+/iIgXP5AQnNus+TxkjB/d3lK1j8Cj3Oc282As7G9j7o5WXAF+cCsGD9t4apS6hc9GqQtEbbVA==}
-
   mocha@6.2.3:
     resolution: {integrity: sha512-0R/3FvjIGH3eEuG17ccFPk117XL2rWxatr81a57D+r/x2uTYZRbdZ4oVidEUMh2W2TJDa7MdAb12Lm2/qrKajg==}
     engines: {node: '>= 6.0.0'}
@@ -1977,10 +1967,6 @@ packages:
     resolution: {integrity: sha512-F1ObTKC/ug1RJpLE/vyxQWwAdfJ7fwsmOcOefo8PGCc7YzqPUOkS2P8+UYr01yt5v4SHliL0Ekg+FU2fzEFIBg==}
     engines: {node: '>=8'}
     hasBin: true
-
-  replaceall@0.1.6:
-    resolution: {integrity: sha512-sL26E4+8Kec7bwpRjHlQvbNZcpnGroT3PA7ywsgH6GjzxAg4IGNlNalLoRC/JmTed7cMhyDbi44pWw1kMhDxlw==}
-    engines: {node: '>= 0.8.x'}
 
   require-directory@2.1.1:
     resolution: {integrity: sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==}
@@ -2473,10 +2459,6 @@ packages:
     resolution: {integrity: sha512-QC1/iN/2/RPVJ5jYK8BGttj5z83LmSKmvbvrXPNCLZSEb32KKVDJDl/MOt2N01qU2H/FkzEa9PKto1BqDjtd7Q==}
     engines: {node: '>=6'}
 
-  wrap-ansi@6.2.0:
-    resolution: {integrity: sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==}
-    engines: {node: '>=8'}
-
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
@@ -2514,10 +2496,6 @@ packages:
     resolution: {integrity: sha512-Fl4RBJThsWeJl3cRZeGuolcuH78/foVUAYIUpKn8rkCnjn23ilZvJyEZJjnlzoG/+EJKPb1RggD4xS/Jie2nxg==}
     engines: {node: '>=6'}
 
-  yargs-parser@18.1.3:
-    resolution: {integrity: sha512-o50j0JeToy/4K6OZcaQmW6lyXXKhq7csREXcDwk2omFPJEwUNOVtJKvmDr9EI1fAJZUyZcRF7kxGBWmRXudrCQ==}
-    engines: {node: '>=6'}
-
   yargs-parser@8.1.0:
     resolution: {integrity: sha512-yP+6QqN8BmrgW2ggLtTbdrOyBNSI7zBa4IykmiV5R1wl1JWNxQvWhMfMdmzIYtKU7oP3OOInY/tl2ov3BDjnJQ==}
 
@@ -2536,10 +2514,6 @@ packages:
 
   yargs@13.3.2:
     resolution: {integrity: sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==}
-
-  yargs@15.4.1:
-    resolution: {integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==}
-    engines: {node: '>=8'}
 
 snapshots:
 
@@ -3012,12 +2986,6 @@ snapshots:
       string-width: 3.1.0
       strip-ansi: 5.2.0
       wrap-ansi: 5.1.0
-
-  cliui@6.0.0:
-    dependencies:
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-      wrap-ansi: 6.2.0
 
   clone-response@1.0.3:
     dependencies:
@@ -3647,11 +3615,6 @@ snapshots:
     dependencies:
       git-up: 4.0.5
 
-  glob-all@3.3.1:
-    dependencies:
-      glob: 7.2.3
-      yargs: 15.4.1
-
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
@@ -4277,15 +4240,6 @@ snapshots:
     dependencies:
       minimist: 1.2.8
 
-  mocha-eslint@5.0.0:
-    dependencies:
-      chalk: 2.4.2
-      eslint: 5.16.0
-      glob-all: 3.3.1
-      replaceall: 0.1.6
-    transitivePeerDependencies:
-      - supports-color
-
   mocha@6.2.3:
     dependencies:
       ansi-colors: 3.2.3
@@ -4748,8 +4702,6 @@ snapshots:
     transitivePeerDependencies:
       - '@octokit/core'
       - encoding
-
-  replaceall@0.1.6: {}
 
   require-directory@2.1.1: {}
 
@@ -5313,12 +5265,6 @@ snapshots:
       string-width: 3.1.0
       strip-ansi: 5.2.0
 
-  wrap-ansi@6.2.0:
-    dependencies:
-      ansi-styles: 4.3.0
-      string-width: 4.2.3
-      strip-ansi: 6.0.1
-
   wrappy@1.0.2: {}
 
   write-file-atomic@3.0.3:
@@ -5350,11 +5296,6 @@ snapshots:
       decamelize: 1.2.0
 
   yargs-parser@17.0.0:
-    dependencies:
-      camelcase: 5.3.1
-      decamelize: 1.2.0
-
-  yargs-parser@18.1.3:
     dependencies:
       camelcase: 5.3.1
       decamelize: 1.2.0
@@ -5415,17 +5356,3 @@ snapshots:
       which-module: 2.0.1
       y18n: 4.0.3
       yargs-parser: 13.1.2
-
-  yargs@15.4.1:
-    dependencies:
-      cliui: 6.0.0
-      decamelize: 1.2.0
-      find-up: 4.1.0
-      get-caller-file: 2.0.5
-      require-directory: 2.1.1
-      require-main-filename: 2.0.0
-      set-blocking: 2.0.0
-      string-width: 4.2.3
-      which-module: 2.0.1
-      y18n: 4.0.3
-      yargs-parser: 18.1.3
