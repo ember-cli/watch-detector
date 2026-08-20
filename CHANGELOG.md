@@ -1,5 +1,23 @@
 # Changelog
 
+## Release (2026-08-20)
+
+* watch-detector 1.0.3 (patch)
+
+#### :bug: Bug Fix
+* `watch-detector`
+  * [#40](https://github.com/ember-cli/watch-detector/pull/40) update tmp ([@mansona](https://github.com/mansona))
+
+#### :house: Internal
+* `watch-detector`
+  * [#41](https://github.com/ember-cli/watch-detector/pull/41) start using release-plan ([@mansona](https://github.com/mansona))
+  * [#39](https://github.com/ember-cli/watch-detector/pull/39) use pnpm for local development and modern node CI ([@mansona](https://github.com/mansona))
+  * [#35](https://github.com/ember-cli/watch-detector/pull/35) Update URLs in package.json ([@locks](https://github.com/locks))
+
+#### Committers: 2
+- Chris Manson ([@mansona](https://github.com/mansona))
+- Ricardo Mendes ([@locks](https://github.com/locks))
+
 ## v1.0.2 (2022-07-28)
 
 * Merge pull request #26 from ginomiglio/can-nest-roots-version-check (ec2ab11)
