@@ -1,0 +1,22 @@
+{
+  "solution": {
+    "watch-detector": {
+      "impact": "patch",
+      "oldVersion": "1.0.2",
+      "newVersion": "1.0.3",
+      "tagName": "latest",
+      "constraints": [
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :bug: Bug Fix"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./package.json"
+    }
+  },
+  "description": "## Release (2026-08-20)\n\n* watch-detector 1.0.3 (patch)\n\n#### :bug: Bug Fix\n* `watch-detector`\n  * [#40](https://github.com/ember-cli/watch-detector/pull/40) update tmp ([@mansona](https://github.com/mansona))\n\n#### :house: Internal\n* `watch-detector`\n  * [#41](https://github.com/ember-cli/watch-detector/pull/41) start using release-plan ([@mansona](https://github.com/mansona))\n  * [#39](https://github.com/ember-cli/watch-detector/pull/39) use pnpm for local development and modern node CI ([@mansona](https://github.com/mansona))\n  * [#35](https://github.com/ember-cli/watch-detector/pull/35) Update URLs in package.json ([@locks](https://github.com/locks))\n\n#### Committers: 2\n- Chris Manson ([@mansona](https://github.com/mansona))\n- Ricardo Mendes ([@locks](https://github.com/locks))\n"
+}
